@@ -88,7 +88,7 @@ function addRecordHandler() {
     return;
   }
 
-  addRecord(name, salary);//removing "!" before salary.
+  addRecord(name, salary);
 }
 
 function addRecord(name, salary) {
@@ -226,7 +226,7 @@ const uniquifyNames = function (items) {
 
   return items.map(function (item) {
     if (uniqueNames[item.name] !== undefined) {
-      uniqueNames[item.name] += "";
+      uniqueNames[item.name] += " ";
       item.name += uniqueNames[item.name];
     } else {
       uniqueNames[item.name] = "";
