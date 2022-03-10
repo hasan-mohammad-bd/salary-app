@@ -11,7 +11,7 @@ source tab:
 2. right click on the file, you can select and deselect the 
 file according to your need.(both source tab and vs code)
 
-3. ctrl + shift + t => to take closed tab.(both source tab and vs code)it brings tab one by one.
+3. ctrl + shift + t => to bring closed tab.(both source tab and vs code)it brings tab one by one.
 
 4. selecting multiple tab and pressing shift. close all the tab by pressing ctrl + w .
 
@@ -29,20 +29,20 @@ useful tab is used for debugging.
 */
 
 /*  
-//debugging the salary sheet.
+/debugging the salary sheet.
 
-//first problem: the chart doesn't show the input person salary chert. 
+/first problem: the chart doesn't show the input person salary chert. 
 
 process:
 find the button eventAddListener > follow the line of code > debug the line > find the error
 
-!!problem was, there was a "!" sign before salary which was making it false value.
+problem was, there was a "!" sign before salary which was making it false value.
 
-//finding second problem: the button adding the wrong info to the innerText field. it should be addition of the all salary.
+/finding second problem: the button adding the wrong info to the innerText field. it should be addition of the all salary.
 
 process:
 add break point in chert related function.
-in "call stack tab you can see which function is calling which function. find the initializd "
+in "call stack tab you can see which function is calling which function. find the initialized "
 
 from the button, find the data where from it is generating. check the data with Array.isArray(data), whether it is array or object. 
 
